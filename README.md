@@ -4,7 +4,16 @@ A robust, simple **grid trading bot** built on the **HyperLiquid API** with a de
 
 You can create, edit, start, stop, and monitor live logs for multiple bots—all from a clean web interface. The bot automatically places buy and sell orders at fixed price intervals and intelligently rebuilds the grid whenever orders fill.
 
----
+***
+Added .gitignore file
+
+Run on VPS with nohup streamlit run app.py --server.port 8501 > streamlit.log 2>&1 &
+        If you change the port #, run SUDO UFW ALLOW 8504
+    Check to see if it's running ➡️ ps aux | grep app.py
+    End Process ➡️ kill <PID>
+
+***
+Future Ideas: https://console.groq.com/docs/rate-limits, Order Book Inbalances (h3.Market_data, regime)
 
 ## 📚 Table of Contents
 
